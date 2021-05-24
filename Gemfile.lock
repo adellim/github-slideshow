@@ -260,3 +260,5 @@ DEPENDENCIES
 
 BUNDLED WITH
    1.16.6
+
+schema = Nokogiri::XML::Schema.new(trusted_schema, Nokogiri::XML::ParseOptions.new.nononet)
